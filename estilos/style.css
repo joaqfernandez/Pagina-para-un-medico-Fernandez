@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Lato&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+    header{
+    background-color: purple;
+    border: 2px solid black;
+    margin-bottom: 3px;
+    }
+
+
+    #titulo1 {
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2em;
+        color: white;
+    }
+
+    #subtitulo1{
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+
+    /* --------------------------- Barra de navegacion -------------------------- */
+
+        nav{
+            background-color: rgb(202, 70, 169);
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav ul{ 
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+        
+        }
+
+        nav ul a {
+            font-family: 'Heebo', sans-serif;
+            text-decoration: none;
+        }
+
+/* ---------------------------------- Foto ---------------------------------- */
+    #fotosEjemplo{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 50%;
+        row-gap: 10px;
+        width: fit-content;
+        margin-top: 5%;
+        
+
+}
+/* -------------------------- Pequeña presentacion -------------------------- */
+    .sobremi{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #quiensoy {
+        padding: 0%;
+        margin-left: 0%;
+        font-size: 20px;
+        font-family: 'Heebo', sans-serif;
+    }
+/* -------------------------------- servicios ------------------------------- */
+    .gineco-imagenes{
+        max-width: 50px;
+        max-height: 230px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gineco-imagenes2{
+        height: 220px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .servicios{
+        display: flex;
+        justify-content: center;
+    }
+    .servicios-a{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .servicios-a a{
+        text-decoration: none;
+        font-family: 'Heebo', sans-serif;
+    }
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+    footer{
+    margin-top: 5%;
+        background-image: url(../imagenes/SIMBOLO.jpg);
+
+    }
+/* ---------------------------- textos del footer --------------------------- */
+    #parrafos-footer{
+        padding: 3px;
+        margin-left: 10%;
+        font-family: 'Heebo', sans-serif;
+        padding-bottom: 5px;
+}
+footer h4{
+    font-family: 'Heebo', sans-serif;
+    margin-left: 5px;
+}
+
+/* ----------------------------- mapa del footer ---------------------------- */
+    footer div{
+    margin-left: 61%;
+    }
