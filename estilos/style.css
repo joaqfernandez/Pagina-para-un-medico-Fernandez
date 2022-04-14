@@ -30,7 +30,23 @@
     }
 
     /* --------------------------- Barra de navegacion -------------------------- */
+    nav{
+        background-color: rgb(202, 70, 169);
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    nav ul{ 
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
 
+    nav ul a {
+        font-family: 'Heebo', sans-serif;
+        text-decoration: none;
+    }
 
 /* ---------------------------------- carousel ---------------------------------- */
     .carousel-inner{
