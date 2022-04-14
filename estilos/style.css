@@ -5,9 +5,9 @@
     padding: 0%;
     margin: 0%;
 }
-/* -------------------------------------------------------------------------- */
-/*                                   header                                   */
-/* -------------------------------------------------------------------------- */
+/*! -------------------------------------------------------------------------- */
+/*!                                   header                                   */
+/*! -------------------------------------------------------------------------- */
     header{
     background-color: purple;
     border: 2px solid black;
@@ -47,80 +47,83 @@
         font-family: 'Heebo', sans-serif;
         text-decoration: none;
     }
+/*! -------------------------------------------------------------------------- */
+/*!                                   INDEX                                   */
+/*! -------------------------------------------------------------------------- */
 
-/* ---------------------------------- carousel ---------------------------------- */
-    .carousel-inner{
-        margin-bottom: 50px;
-        height: 650px;
+    /* ---------------------------------- carousel ---------------------------------- */
+        .carousel-inner{
+            margin-bottom: 50px;
+            height: 650px;
+        }
+    /* -------------------------- Pequeña presentacion -------------------------- */
+        .sobremi{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #quiensoy {
+            padding: 0%;
+            margin-left: 0%;
+            font-size: 20px;
+            font-family: 'Heebo', sans-serif;
+        }
+
+        .fotosobremi:hover{
+            transform: scale(2);
+            transition: all 2s;
+        }
+    /* -------------------------------- servicios ------------------------------- */
+        .gineco-imagenes{
+            max-width: 50px;
+            max-height: 230px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .gineco-imagenes2{
+            height: 220px;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .servicios{
+            display: flex;
+            justify-content: center;
+        }
+        .servicios-a{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .servicios-a a{
+            text-decoration: none;
+            font-family: 'Heebo', sans-serif;
+        }
+/*! -------------------------------------------------------------------------- */
+/*!                                   footer                                   */
+/*! -------------------------------------------------------------------------- */
+        footer{
+        margin-top: 5%;
+            background-image: url(../imagenes/SIMBOLO.jpg);
+
+        }
+    /* ---------------------------- textos del footer --------------------------- */
+        #parrafos-footer{
+            padding: 3px;
+            margin-left: 10%;
+            font-family: 'Heebo', sans-serif;
+            padding-bottom: 5px;
     }
-/* -------------------------- Pequeña presentacion -------------------------- */
-    .sobremi{
-        display: flex;
-        justify-content: center;
-    }
-
-
-    #quiensoy {
-        padding: 0%;
-        margin-left: 0%;
-        font-size: 20px;
+    footer h4{
         font-family: 'Heebo', sans-serif;
+        margin-left: 5px;
     }
 
-    .fotosobremi:hover{
-        transform: scale(2);
-        transition: all 2s;
-    }
-/* -------------------------------- servicios ------------------------------- */
-    .gineco-imagenes{
-        max-width: 50px;
-        max-height: 230px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .gineco-imagenes2{
-        height: 220px;
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-    .servicios{
-        display: flex;
-        justify-content: center;
-    }
-    .servicios-a{
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .servicios-a a{
-        text-decoration: none;
-        font-family: 'Heebo', sans-serif;
-    }
-/* -------------------------------------------------------------------------- */
-/*                                   footer                                   */
-/* -------------------------------------------------------------------------- */
-    footer{
-    margin-top: 5%;
-        background-image: url(../imagenes/SIMBOLO.jpg);
-
-    }
-/* ---------------------------- textos del footer --------------------------- */
-    #parrafos-footer{
-        padding: 3px;
-        margin-left: 10%;
-        font-family: 'Heebo', sans-serif;
-        padding-bottom: 5px;
-}
-footer h4{
-    font-family: 'Heebo', sans-serif;
-    margin-left: 5px;
-}
-
-/* ----------------------------- mapa del footer ---------------------------- */
-    footer div{
-    margin-left: 61%;
-    }
+    /* ----------------------------- mapa del footer ---------------------------- */
+        footer div{
+        margin-left: 61%;
+        }
