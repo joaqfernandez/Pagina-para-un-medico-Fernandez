@@ -2,6 +2,11 @@
 /*                                    INDEX                                   */
 /* -------------------------------------------------------------------------- */
 /* ---------------------------------- carousel ---------------------------------- */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
 .carousel-inner{
     margin-bottom: 50px;
     height: 650px;
@@ -25,7 +30,16 @@
     transition: all 0.5s;
 }
 
+
+/* -------------------------------- Carousel -------------------------------- */
+.carousel-inner{
+    margin-bottom: 50px;
+    height: 650px;
+}
+
 /* -------------------------------- SERVICIOS ------------------------------- */
+    
+body{
     .container{
         display: flex;
         justify-content: center;
@@ -131,5 +145,13 @@
                     }
                 }
             
+            }
+        }
+}
+
+@media only screen and (max-width: 576px) {
+    .sobremi {
+            display: flex;
+            flex-direction: column
             }
         }
