@@ -205,5 +205,8 @@ body .container .box .content a:hover {
     flex-direction: column;
   }
 }
+#titulo1 {
+  font-size: 2em;
+}
 
 /*# sourceMappingURL=style.css.map */
