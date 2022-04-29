@@ -1,0 +1,11 @@
+
+%boton{
+border: 2px solid  rgb(45, 44, 44);
+border-radius: 5px;
+color: white;
+background-color: gray;
+padding: 5px ;
+}
+.learn-more{
+    @extend %boton
+}

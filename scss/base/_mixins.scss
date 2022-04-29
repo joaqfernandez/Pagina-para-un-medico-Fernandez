@@ -1,0 +1,13 @@
+@mixin prefijo($valor){
+color: $valor;
+}
+
+nav{
+    ul{
+        a{
+            &:hover{
+                @include prefijo(white)
+            }
+        }
+    }
+}
