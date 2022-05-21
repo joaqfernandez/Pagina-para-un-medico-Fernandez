@@ -5,7 +5,7 @@
 footer{
     background-color: purple;
     section{
-        padding: 5%;
+        padding: 3%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1px;
@@ -15,8 +15,6 @@ footer{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                #mapa{
-                }
             }
             h4{
                 display: flex;
