@@ -220,4 +220,40 @@ nav ul a:hover {
   color: white;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                  QUIEN SOY                                 */
+/* -------------------------------------------------------------------------- */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#titulo-quiensoy {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#info-quiensoy {
+  margin: 5px;
+}
+#info-quiensoy h4 {
+  display: flex;
+  justify-content: center;
+}
+#info-quiensoy p {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4%;
+}
+
+#tajetas-quien-soy {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 2px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
