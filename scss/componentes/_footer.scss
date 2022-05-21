@@ -3,28 +3,30 @@
 /* -------------------------------------------------------------------------- */
 
 footer{
-    margin-top: 5%;
-    background-image: url(../imagenes/SIMBOLO.jpg);
-    h4{
-        font-family: 'Heebo', sans-serif;
-        margin-left: 5px;
-    }
-    }
-/* ---------------------------- textos del footer --------------------------- */
-    #parrafos-footer{
-        padding: 3px;
-        font-family: 'Heebo', sans-serif;
-        padding-bottom: 5px;
-        display: flex;
-        flex-direction: column
-}
-
-    /* ----------------------------- mapa del footer ---------------------------- */
-    footer{
-        div{
-            display: flex;
-            justify-content: end;
-            padding-right: 5px;
-            padding-bottom: 5px;
+    background-color: purple;
+    section{
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1px;
+            #parrafos-footer{
+                color: white;
+                font-family: 'Heebo', sans-serif;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                #mapa{
+                }
             }
-    } 
+            h4{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-family: 'Heebo', sans-serif;
+                margin-left: 5px;
+                color: white;
+            }
+        }
+    }
+
+
