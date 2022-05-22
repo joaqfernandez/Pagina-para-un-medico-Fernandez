@@ -8,15 +8,18 @@
 }
 
 
-#info-consultas{
-    h4{
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-    }
-    p{
-        margin-left: 1%;
-        display: flex;
-        justify-content: flex-start;
+body{
+    background-color: #eaebed;
+    #info-consultas{
+        h4{
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            margin-left: 1%;
+            display: flex;
+            justify-content: flex-start;
+        }
     }
 }

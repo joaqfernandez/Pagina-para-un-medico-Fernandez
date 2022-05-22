@@ -5,28 +5,31 @@
     margin: 0%;
     padding: 0%;
 }
-#titulo-quiensoy{
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-}
-#info-quiensoy{
-    margin: 5px;
-    h4{
+body{
+    background-color: #eaebed;
+    #titulo-quiensoy{
+        margin: 5px;
         display: flex;
         justify-content: center;
     }
-    p{
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 4%;
+    #info-quiensoy{
+        margin: 5px;
+        h4{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 4%;
+        }
     }
-}
-#tajetas-quien-soy{
-    margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-column-gap: 2px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 10px;
+    #tajetas-quien-soy{
+        margin: 2%;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 2px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
 }

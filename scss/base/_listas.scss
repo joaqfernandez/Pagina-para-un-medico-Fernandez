@@ -2,14 +2,17 @@ $colores:
 rgb(163, 58, 137)
 #e91e63
 #6e5dcf
-#c27dfc;
+#c27dfc
+#eaebed;
 
 
 
 $size:
 2rem;
 
-
+body{
+    background-color: nth($colores, 5);
+}
 #titulo1{
     font-size: nth($size, 1);
 }

@@ -104,6 +104,9 @@ nav ul a:hover {
 }
 
 /* -------------------------------- SERVICIOS ------------------------------- */
+body {
+  background-color: aqua;
+}
 body .container {
   display: flex;
   justify-content: center;
@@ -198,6 +201,10 @@ body .container .box .content a:hover {
     flex-direction: column;
   }
 }
+body {
+  background-color: #eaebed;
+}
+
 #titulo1 {
   font-size: 2rem;
 }
@@ -222,26 +229,27 @@ nav ul a:hover {
   padding: 0%;
 }
 
-#titulo-quiensoy {
+body {
+  background-color: #eaebed;
+}
+body #titulo-quiensoy {
   margin: 5px;
   display: flex;
   justify-content: center;
 }
-
-#info-quiensoy {
+body #info-quiensoy {
   margin: 5px;
 }
-#info-quiensoy h4 {
+body #info-quiensoy h4 {
   display: flex;
   justify-content: center;
 }
-#info-quiensoy p {
+body #info-quiensoy p {
   display: flex;
   justify-content: flex-start;
   margin-left: 4%;
 }
-
-#tajetas-quien-soy {
+body #tajetas-quien-soy {
   margin: 2%;
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -258,15 +266,40 @@ nav ul a:hover {
   padding: 0%;
 }
 
-#info-consultas h4 {
+body {
+  background-color: #eaebed;
+}
+body #info-consultas h4 {
   padding: 5px;
   display: flex;
   justify-content: center;
 }
-#info-consultas p {
+body #info-consultas p {
   margin-left: 1%;
   display: flex;
   justify-content: flex-start;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #eaebed;
+}
+body #info-colposcopia #h4-colposcopia {
+  display: flex;
+  justify-content: center;
+}
+body #que-es-colposcopia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body #que-es-colposcopia #texto-colposcopia {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
 }
 
 /*# sourceMappingURL=style.css.map */
