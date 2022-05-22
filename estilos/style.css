@@ -2,9 +2,6 @@
 /* -------------------------------------------------------------------------- */
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
-footer {
-  background-color: purple;
-}
 footer section {
   padding: 3%;
   display: grid;
@@ -32,7 +29,6 @@ footer section h4 {
 /* -------------------------------------------------------------------------- */
 header {
   background-color: #6e5dcf;
-  border: 2px solid black;
 }
 
 #titulo1 {
@@ -84,12 +80,16 @@ nav ul a:hover {
   display: flex;
   justify-content: center;
 }
-
-#quiensoy {
+.sobremi div #quiensoy {
   padding: 0%;
   margin-left: 0%;
   font-size: 20px;
   font-family: "Heebo", sans-serif;
+  text-decoration: none;
+}
+.sobremi div #quiensoy .leanmore a {
+  text-decoration: none;
+  color: white;
 }
 
 .fotosobremi:hover {
@@ -201,8 +201,8 @@ body .container .box .content a:hover {
     flex-direction: column;
   }
 }
-body {
-  background-color: #eaebed;
+footer {
+  background-color: #6e5dcf;
 }
 
 #titulo1 {

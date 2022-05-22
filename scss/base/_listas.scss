@@ -10,8 +10,8 @@ rgb(163, 58, 137)
 $size:
 2rem;
 
-body{
-    background-color: nth($colores, 5);
+footer{
+    background-color: nth($colores, 3);
 }
 #titulo1{
     font-size: nth($size, 1);
