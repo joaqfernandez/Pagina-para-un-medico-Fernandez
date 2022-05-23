@@ -64,7 +64,7 @@ nav ul a {
   color: white;
 }
 nav ul a:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #243b67;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -104,9 +104,6 @@ nav ul a:hover {
 }
 
 /* -------------------------------- SERVICIOS ------------------------------- */
-body {
-  background-color: aqua;
-}
 body .container {
   display: flex;
   justify-content: center;
@@ -268,6 +265,7 @@ body #tajetas-quien-soy {
 
 body {
   background-color: #eaebed;
+  /* From uiverse.io by @alexmaracinaru */
 }
 body #info-consultas h4 {
   padding: 5px;
@@ -278,6 +276,59 @@ body #info-consultas p {
   margin-left: 1%;
   display: flex;
   justify-content: flex-start;
+}
+body .cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+body .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+body .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+body .cta span a {
+  text-decoration: none;
+}
+body .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+body .cta svg:hover {
+  transform: translateX(0);
+}
+body .cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+body .cta:active {
+  transform: scale(0.95);
 }
 
 * {
