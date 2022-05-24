@@ -24,6 +24,31 @@ footer section h4 {
   color: white;
 }
 
+@media only screen and (max-width: 808px) {
+  footer section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 3px;
+  }
+  footer section iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 589px) {
+  .carousel {
+    margin-bottom: -111%;
+  }
+
+  footer section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer section iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /*                                   HEADER                                   */
 /* -------------------------------------------------------------------------- */
@@ -67,6 +92,13 @@ nav ul a:hover {
   border-bottom: 2px solid #243b67;
 }
 
+@media only screen and (max-width: 576px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /*                                    INDEX                                   */
 /* -------------------------------------------------------------------------- */
@@ -201,6 +233,7 @@ body .container .box .content a:hover {
   .sobremi {
     display: flex;
     flex-direction: column;
+    margin-left: -50px;
   }
 }
 footer {
@@ -251,15 +284,20 @@ body #info-quiensoy p {
   justify-content: flex-start;
   margin-left: 4%;
 }
-body #tajetas-quien-soy {
+body #tarjetas-quien-soy {
   margin: 2%;
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-column-gap: 2px;
-  grid-template-rows: repeat(2, 1fr);
-  grid-row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
 }
 
+@media only screen and (max-width: 576px) {
+  body #tarjetas-quien-soy {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /*                                  CONSULTAS                                 */
 /* -------------------------------------------------------------------------- */
@@ -413,6 +451,17 @@ body #que-es-colposcopia #texto-colposcopia {
   padding-left: 10%;
 }
 
+@media only screen and (max-width: 609px) {
+  body #info-ginecomamarios {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body #info-ginecomamarios img {
+    padding-left: 10%;
+    height: 250px;
+    width: 200px;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /*                                2DA OPINIONES                               */
 /* -------------------------------------------------------------------------- */

@@ -24,12 +24,20 @@ body{
             margin-left: 4%;
         }
     }
-    #tajetas-quien-soy{
+    #tarjetas-quien-soy{
         margin: 2%;
         display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-column-gap: 2px;
-        grid-template-rows: repeat(2, 1fr);
-        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    body{
+        #tarjetas-quien-soy{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 20px
+        }
     }
 }
