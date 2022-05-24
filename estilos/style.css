@@ -77,23 +77,28 @@ nav ul a:hover {
 
 /* -------------------------- Pequeña presentacion + fotos -------------------------- */
 .sobremi {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-left: 20%;
 }
-.sobremi div #quiensoy {
+.sobremi #quiensoy #quiensoy1 #quiensoy {
   padding: 0%;
   margin-left: 0%;
   font-size: 20px;
   font-family: "Heebo", sans-serif;
   text-decoration: none;
 }
-.sobremi div #quiensoy .leanmore a {
+.sobremi #quiensoy #quiensoy1 #quiensoy .leanmore a {
   text-decoration: none;
   color: white;
 }
 
+.forosobremi {
+  padding-left: 5%;
+}
+
 .fotosobremi:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition: all 0.5s;
 }
 
@@ -363,15 +368,23 @@ body #que-es-colposcopia #texto-colposcopia {
   padding: 0%;
 }
 
-#cirugia-oncomamaria h4 {
+#cirugias-oncomamarias h4 {
   display: flex;
   justify-content: center;
   padding: 15px;
 }
-#cirugia-oncomamaria p {
-  padding-left: 2%;
+#cirugias-oncomamarias #info-oncomamarias {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+#cirugias-oncomamarias #info-oncomamarias p {
   display: flex;
   justify-content: flex-start;
+  padding-left: 2%;
+  padding-top: 15%;
+}
+#cirugias-oncomamarias img {
+  margin-bottom: 2%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -398,6 +411,58 @@ body #que-es-colposcopia #texto-colposcopia {
 }
 #controles-ginecomamarios #info-ginecomamarios img {
   padding-left: 10%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                2DA OPINIONES                               */
+/* -------------------------------------------------------------------------- */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+#segundasopinones-info h4 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#segundasopinones-info p {
+  margin-left: 3%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  CONTACTO                                  */
+/* -------------------------------------------------------------------------- */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

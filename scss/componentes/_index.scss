@@ -8,28 +8,35 @@
 }
 /* -------------------------- Pequeña presentacion + fotos -------------------------- */
 .sobremi{
-    display: flex;
-    justify-content: center;
-    div{
-        #quiensoy{
-            padding: 0%;
-            margin-left: 0%;
-            font-size: 20px;
-            font-family: 'Heebo', sans-serif;
-            text-decoration: none;
-            .leanmore{
-                    a{
-                        text-decoration: none;
-                        color: white;
-                    }
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-left: 20%;
+    #quiensoy{
+        #quiensoy1{
+            #quiensoy{
+                padding: 0%;
+                margin-left: 0%;
+                font-size: 20px;
+                font-family: 'Heebo', sans-serif;
+                text-decoration: none;
+                .leanmore{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                }
             }
         }
     }
+
 }
 
 
+.forosobremi{
+    padding-left: 5%;
+}
 .fotosobremi:hover{
-    transform: scale(2);
+    transform: scale(1.5);
     transition: all 0.5s;
 }
 
